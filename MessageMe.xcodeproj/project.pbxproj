@@ -18,6 +18,7 @@
 		73CC2993235897FB00A7AFC0 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC2992235897FB00A7AFC0 /* TitleLabel.swift */; };
 		73CC29952358B4C300A7AFC0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC29942358B4C300A7AFC0 /* Person.swift */; };
 		73CC29982359AE3800A7AFC0 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC29972359AE3800A7AFC0 /* MessageTableViewCell.swift */; };
+		73CC299A2359B36000A7AFC0 /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC29992359B36000A7AFC0 /* message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		73CC2992235897FB00A7AFC0 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 		73CC29942358B4C300A7AFC0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		73CC29972359AE3800A7AFC0 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		73CC29992359B36000A7AFC0 /* message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				73CC29942358B4C300A7AFC0 /* Person.swift */,
+				73CC29992359B36000A7AFC0 /* message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				73CC297423588C6600A7AFC0 /* SceneDelegate.swift in Sources */,
 				73CC2993235897FB00A7AFC0 /* TitleLabel.swift in Sources */,
 				73CC29952358B4C300A7AFC0 /* Person.swift in Sources */,
+				73CC299A2359B36000A7AFC0 /* message.swift in Sources */,
 				73CC29982359AE3800A7AFC0 /* MessageTableViewCell.swift in Sources */,
 				73CC298E23588CD700A7AFC0 /* NameViewController.swift in Sources */,
 				73CC299023588CE600A7AFC0 /* MessagingViewController.swift in Sources */,
