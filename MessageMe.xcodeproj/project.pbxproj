@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		73CC297223588C6600A7AFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC297123588C6600A7AFC0 /* AppDelegate.swift */; };
 		73CC297423588C6600A7AFC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC297323588C6600A7AFC0 /* SceneDelegate.swift */; };
-		73CC297623588C6600A7AFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC297523588C6600A7AFC0 /* ViewController.swift */; };
 		73CC297923588C6600A7AFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CC297723588C6600A7AFC0 /* Main.storyboard */; };
 		73CC297C23588C6600A7AFC0 /* MessageMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73CC297A23588C6600A7AFC0 /* MessageMe.xcdatamodeld */; };
 		73CC297E23588C6700A7AFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CC297D23588C6700A7AFC0 /* Assets.xcassets */; };
 		73CC298123588C6700A7AFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CC297F23588C6700A7AFC0 /* LaunchScreen.storyboard */; };
+		73CC298E23588CD700A7AFC0 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC298D23588CD700A7AFC0 /* NameViewController.swift */; };
+		73CC299023588CE600A7AFC0 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC298F23588CE600A7AFC0 /* MessagingViewController.swift */; };
+		73CC2993235897FB00A7AFC0 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC2992235897FB00A7AFC0 /* TitleLabel.swift */; };
+		73CC29952358B4C300A7AFC0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC29942358B4C300A7AFC0 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		73CC296E23588C6600A7AFC0 /* MessageMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CC297123588C6600A7AFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73CC297323588C6600A7AFC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		73CC297523588C6600A7AFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73CC297823588C6600A7AFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73CC297B23588C6600A7AFC0 /* MessageMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MessageMe.xcdatamodel; sourceTree = "<group>"; };
 		73CC297D23588C6700A7AFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73CC298023588C6700A7AFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73CC298223588C6700A7AFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73CC298D23588CD700A7AFC0 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		73CC298F23588CE600A7AFC0 /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		73CC2992235897FB00A7AFC0 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		73CC29942358B4C300A7AFC0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,59 @@
 		73CC297023588C6600A7AFC0 /* MessageMe */ = {
 			isa = PBXGroup;
 			children = (
+				73CC298C23588C8C00A7AFC0 /* Model */,
+				73CC298B23588C8600A7AFC0 /* Controller */,
+				73CC298A23588C8100A7AFC0 /* View */,
+				73CC298823588C6C00A7AFC0 /* Supporting Files */,
 				73CC297123588C6600A7AFC0 /* AppDelegate.swift */,
 				73CC297323588C6600A7AFC0 /* SceneDelegate.swift */,
-				73CC297523588C6600A7AFC0 /* ViewController.swift */,
 				73CC297723588C6600A7AFC0 /* Main.storyboard */,
-				73CC297D23588C6700A7AFC0 /* Assets.xcassets */,
 				73CC297F23588C6700A7AFC0 /* LaunchScreen.storyboard */,
 				73CC298223588C6700A7AFC0 /* Info.plist */,
 				73CC297A23588C6600A7AFC0 /* MessageMe.xcdatamodeld */,
 			);
 			path = MessageMe;
+			sourceTree = "<group>";
+		};
+		73CC298823588C6C00A7AFC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73CC297D23588C6700A7AFC0 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73CC298A23588C8100A7AFC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73CC2991235897AC00A7AFC0 /* Label */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73CC298B23588C8600A7AFC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73CC298D23588CD700A7AFC0 /* NameViewController.swift */,
+				73CC298F23588CE600A7AFC0 /* MessagingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		73CC298C23588C8C00A7AFC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73CC29942358B4C300A7AFC0 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73CC2991235897AC00A7AFC0 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				73CC2992235897FB00A7AFC0 /* TitleLabel.swift */,
+			);
+			path = Label;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73CC297623588C6600A7AFC0 /* ViewController.swift in Sources */,
 				73CC297C23588C6600A7AFC0 /* MessageMe.xcdatamodeld in Sources */,
 				73CC297223588C6600A7AFC0 /* AppDelegate.swift in Sources */,
 				73CC297423588C6600A7AFC0 /* SceneDelegate.swift in Sources */,
+				73CC2993235897FB00A7AFC0 /* TitleLabel.swift in Sources */,
+				73CC29952358B4C300A7AFC0 /* Person.swift in Sources */,
+				73CC298E23588CD700A7AFC0 /* NameViewController.swift in Sources */,
+				73CC299023588CE600A7AFC0 /* MessagingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
