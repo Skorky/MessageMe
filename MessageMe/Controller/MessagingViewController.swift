@@ -14,7 +14,7 @@ class MessagingViewController: UIViewController {
     
     @IBOutlet weak var textInput: UITextField!
     @IBOutlet weak var lblName: UILabel!
-    
+    @IBOutlet weak var tableView: UITableView!
     
     
     

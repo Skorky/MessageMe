@@ -17,6 +17,7 @@
 		73CC299023588CE600A7AFC0 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC298F23588CE600A7AFC0 /* MessagingViewController.swift */; };
 		73CC2993235897FB00A7AFC0 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC2992235897FB00A7AFC0 /* TitleLabel.swift */; };
 		73CC29952358B4C300A7AFC0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC29942358B4C300A7AFC0 /* Person.swift */; };
+		73CC29982359AE3800A7AFC0 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC29972359AE3800A7AFC0 /* MessageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		73CC298F23588CE600A7AFC0 /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
 		73CC2992235897FB00A7AFC0 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 		73CC29942358B4C300A7AFC0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		73CC29972359AE3800A7AFC0 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		73CC298A23588C8100A7AFC0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				73CC29962359ADEC00A7AFC0 /* Cell */,
 				73CC2991235897AC00A7AFC0 /* Label */,
 			);
 			path = View;
@@ -117,6 +120,14 @@
 				73CC2992235897FB00A7AFC0 /* TitleLabel.swift */,
 			);
 			path = Label;
+			sourceTree = "<group>";
+		};
+		73CC29962359ADEC00A7AFC0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				73CC29972359AE3800A7AFC0 /* MessageTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 				73CC297423588C6600A7AFC0 /* SceneDelegate.swift in Sources */,
 				73CC2993235897FB00A7AFC0 /* TitleLabel.swift in Sources */,
 				73CC29952358B4C300A7AFC0 /* Person.swift in Sources */,
+				73CC29982359AE3800A7AFC0 /* MessageTableViewCell.swift in Sources */,
 				73CC298E23588CD700A7AFC0 /* NameViewController.swift in Sources */,
 				73CC299023588CE600A7AFC0 /* MessagingViewController.swift in Sources */,
 			);
